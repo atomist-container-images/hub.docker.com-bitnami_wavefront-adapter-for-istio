@@ -1,12 +1,15 @@
-# Tags: latest, 0.1.5-debian-10-r345, 0.1.5, 0-debian-10, 0
+# Tags: latest, 0.1.5-debian-10-r346, 0.1.5, 0-debian-10, 0
 FROM bitnami/wavefront-adapter-for-istio:latest
-FROM bitnami/wavefront-adapter-for-istio:0.1.5-debian-10-r345
+FROM bitnami/wavefront-adapter-for-istio:0.1.5-debian-10-r346
 FROM bitnami/wavefront-adapter-for-istio:0.1.5
 FROM bitnami/wavefront-adapter-for-istio:0-debian-10
 FROM bitnami/wavefront-adapter-for-istio:0
 
 # Tags: _
 FROM bitnami/wavefront-adapter-for-istio:_
+
+# Tags: 0.1.5-debian-10-r345
+FROM bitnami/wavefront-adapter-for-istio:0.1.5-debian-10-r345
 
 # Tags: 0.1.5-debian-10-r344
 FROM bitnami/wavefront-adapter-for-istio:0.1.5-debian-10-r344
